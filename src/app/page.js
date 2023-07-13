@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Header from "@/Components/Header/Header";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-center">Home</h1>
+    <main className="">
+      <Header />
     </main>
   );
 }
